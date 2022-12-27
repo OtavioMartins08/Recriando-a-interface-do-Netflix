@@ -26,7 +26,7 @@ header .container {
 header .logo-da-netflix {
     color: #E50914;
     font-family: 'Graphique';
-    font-size: 45px;
+    font-size: 50px;
     margin-left: 20px;
 }
 
@@ -34,15 +34,16 @@ header nav a{
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    font-size: 20px;
 }
 
 header nav a:hover{
     color: #fff;
 }
 
-.em-destaque{
+.em-destaque {
     font-size: 18px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/Witcher.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/The-Witcher.jpg');
     height: 500px;
     background-size: cover;
     display: flex;
